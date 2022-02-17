@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 fs = require('fs')
-const PORT = 9999
+const PORT = process.env.port || 9999
 
 app.get('https://school-project2.herokuapp.com/', (req, res) => {
     const html = '<a>https://gentle-chamber-10032.herokuapp.com/html/Gepard</a>'
