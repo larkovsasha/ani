@@ -3,7 +3,7 @@ const app = express()
 fs = require('fs')
 const PORT = 9999
 
-app.get('/', (req, res) => {
+app.get('https://school-project2.herokuapp.com/', (req, res) => {
     const html = '<a>https://gentle-chamber-10032.herokuapp.com/html/Gepard</a>'
     res.end(html)
 })
