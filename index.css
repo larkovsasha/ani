@@ -11,9 +11,9 @@
 }
 .main-image{
     height: auto;
-    max-width: 100%;
+    max-width: 1000px;
+    max-height: 500px;
     object-fit: cover;
-    max-height: 900px;
 }
 .audio{
     padding: 20px;
