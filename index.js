@@ -21,9 +21,6 @@ app.get('/script.js', (req, res) => {
     const js = fs.readFileSync('./script.js')
     res.end(js)
 })
-
-    
-
 app.get('/assets/best_music.mp3', (req, res) => {
     // res.set({'Content-Type': 'json'});
     // let readStream = fs.createReadStream('./assets/best_music.mp3');

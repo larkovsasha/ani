@@ -29,6 +29,6 @@ function translit(word) {
 
     return answer;
 }
-const names = ['Кенгуру', 'Тасманский сумчатый волк', 'Страус Эму', 'Коала', 'Утконос'];
+const names = ['Лисица', 'Волк', 'Бурый медведь', 'Бобр', 'Белка', 'Кабан'];
 console.log(names.map(translit))
 console.log(names)
