@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <title>Quest</title>
     <link rel="stylesheet" href="/index.css">
+    <style>
+        .app {
+            max-width: 1240px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            padding: 15px;
+        }
+
+        .main-image {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: cover;
+        }
+
+        .audio {
+            padding: 20px;
+            width: 40%;
+        }
+
+        @media (max-width: 600px) {
+            .audio {
+                width: 80%;
+            }
+        }
+    </style>
 </head>
 <body>
 <div class="app">
@@ -16,9 +43,9 @@
         </h1>
         <div class="text"></div>
     </div>
-<!--    <audio controls class="audio">-->
-<!--        <source  src="/assets/best_music.mp3" type="audio/mp3">-->
-<!--    </audio>-->
+    <!--    <audio controls class="audio">-->
+    <!--        <source  src="/assets/best_music.mp3" type="audio/mp3">-->
+    <!--    </audio>-->
     <script src="/script.js"></script>
 </div>
 </body>
