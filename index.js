@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 fs = require('fs')
 const PORT = process.env.PORT || 8080
+console.log(PORT)
 
 app.use(express.static('static'));
 

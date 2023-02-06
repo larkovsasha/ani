@@ -470,24 +470,3 @@ function translit(word) {
 
     return answer;
 }
-
-// [
-//     'Belyy_medved',
-//     'Panda',
-//     'Tigr',
-//     'Olen_severnyy',
-//     'Pesec',
-//     'Topir',
-//     'Verblyud',
-//     'Morskoy_slon'
-// ]
-//     [
-//     'Белый медведь',
-//         'Панда',
-//         'Тигр',
-//         'Олень северный',
-//         'Песец',
-//         'Топир',
-//         'Верблюд',
-//         'Морской слон'
-//     ]
